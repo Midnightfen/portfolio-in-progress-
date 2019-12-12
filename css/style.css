@@ -1,0 +1,210 @@
+.backOne {
+  background-color: lightblue;
+}
+.backTwo {
+    background-color: lightgreen;
+}
+.backThree {
+    background-color: lightsteelblue;
+}
+.backFour {
+    background-color: lavender;
+}
+.welcome {
+    color: goldenrod;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+.welcomeTwo {
+    color: goldenrod;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 50px;
+
+}
+.presentation {
+    color: royalblue;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.interest {
+    color: royalblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    list-style: circle;
+    font-weight: bold;
+    line-height: 25px;
+}
+.formation {
+    margin: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.bord {
+    background-color: lightyellow;
+    border: 2px solid black;
+    width: 50%;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background-color: goldenrod;
+}
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+nav {
+    float: right;
+}
+body {
+    margin: 0;
+}
+nav ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+}
+.logo {
+    float: left;
+    padding: 10px, 0;
+}
+nav a {
+    text-decoration: none;
+    color: firebrick;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bolder;
+}
+nav a:hover {
+    color: royalblue;
+}
+nav a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: royalblue;
+    position: absolute;
+    top: 0;
+}
+nav a:hover::before {
+    width: 100%;
+}
+.game {
+    margin: 20px;
+    text-align: center;
+}
+.bottom {
+    color: firebrick;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+
+}
+.magic {
+    width: 500px;
+    margin: 60px auto;
+    color: royalblue;
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0;
+}
+.magic li {
+    margin: 20px 0;
+}
+.bar {
+    background: red;
+    display: block;
+    height: 10px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 20px red
+}
+.bar span {
+    height: 10px;
+    float: left;
+    background: royalblue;
+}
+.html {
+    width: 60%;
+    animation: html 2s;
+}
+.css {
+    width: 40%;
+    animation: css 2s;
+}
+.javascript {
+    width: 30%;
+    animation: javascript 2s;
+}
+.php {
+    width: 30%;
+    animation: php 2s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+@keyframes php {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+footer {
+    background-color: goldenrod;
+}
+.myLife {
+    color: crimson;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.secondLife {
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+    height: 80vh;
+}
